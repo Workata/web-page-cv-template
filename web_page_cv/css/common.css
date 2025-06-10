@@ -1,0 +1,50 @@
+:root {
+  --left-column-background-color: #E5E5E5;
+  --right-column-background-color: white;
+  /* --accent-color: #00BFF3; */
+  /* --accent-color: #7b2af5; */
+  /* --accent-color: #8a58d6; */
+  --accent-color: #8d98fc;
+}
+
+body {
+    margin-top: 0px;
+    height:297mm;
+    width:210mm;
+    /* to centre page on screen*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  background-color: white;
+  color: aqua;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  height: 100%;
+}
+
+.column {
+  color: black;
+  height: 100%;
+
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    font-size: x-small;
+    margin-top: 70px;
+    width: 500px;
+}
