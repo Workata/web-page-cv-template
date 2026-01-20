@@ -1,10 +1,18 @@
 :root {
   --left-column-background-color: #E5E5E5;
   --right-column-background-color: white;
+
   /* --accent-color: #00BFF3; */
   /* --accent-color: #7b2af5; */
   /* --accent-color: #8a58d6; */
+  --accent-color-dark: #6e7bf0;
   --accent-color: #8d98fc;
+  --accent-color-light: #bac0fb;
+
+  /* --profile-pic-shadow-color: #b3afaf; */
+  --profile-pic-shadow-color: #d2d5f6;
+
+  --left-column-header-shadow-color: #c5c9f7;
 }
 
 body {

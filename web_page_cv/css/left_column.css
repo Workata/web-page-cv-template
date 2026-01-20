@@ -3,11 +3,12 @@
     max-width: 160px;
     height: 160px;
     object-fit: cover;
-    border-style: solid;
-    border-color: var(--accent-color);
+    /* border-style: solid; */
+    /* border-color: var(--accent-color); */
     border-width: 1px;
     margin-top: 20px;
     margin-left: 45px;
+    box-shadow: 7px 7px var(--profile-pic-shadow-color);
 }
 
 #left-column{
@@ -22,7 +23,8 @@
     display: inline-block;
     padding: 5px;
     font-weight: 900;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    box-shadow: 4px 4px var(--left-column-header-shadow-color);
 }
 
 .left-column-content{
@@ -37,7 +39,7 @@
     margin-right: 8px;
 }
 
-.meda-icon-text-wrapper{
+.media-icon-text-wrapper{
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 24px;
@@ -48,7 +50,7 @@
     cursor: pointer;
 }
 
-.meda-icon-wrapper{
+.media-icon-wrapper{
     font-size: 36px;
 }
 
@@ -56,14 +58,19 @@
     font-size: 16px;
 }
 
-.meda-icon{
+.media-icon{
     color: var(--accent-color);
+}
+
+#left-divider{
+    margin-top: 30px;
+    width: 80%;
 }
 
 #media-container{
     /* border: solid; */
     margin-left: 15px;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .personal-data-row{
