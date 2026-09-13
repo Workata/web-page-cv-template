@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "playwright": "^1.63.0"
+  },
+  "scripts": {
+    "export": "node --env-file=.env.example --env-file-if-exists=.env pdf-export.js",
+    "serve": "npm exec -- live-server web_page_cv/"
   }
 }
