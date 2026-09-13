@@ -14,7 +14,7 @@ To view a CV in a browser serve it locally:
 make run
 ```
 
-To export a CV:
+To export a CV to the `*.pdf` format:
 ```sh
 make export
 ```

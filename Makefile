@@ -12,5 +12,5 @@ run:
 
 .PHONY: export
 export:
-	@echo -e "[Makefile] Exporting CV...\n"
+	@echo -e "[Makefile] Exporting CV to pdf...\n"
 	npm run export
